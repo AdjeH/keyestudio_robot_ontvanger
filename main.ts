@@ -7,8 +7,6 @@ radio.onReceivedNumber(function (receivedNumber) {
         RobotCar_Keyestudio.Motors.spin(-20)
     } else if (receivedNumber == 2) {
         RobotCar_Keyestudio.Motors.spin(20)
-    } else {
-        RobotCar_Keyestudio.Motors.stop()
     }
 })
 radio.setGroup(128)
